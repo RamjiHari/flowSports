@@ -2,6 +2,7 @@
   "name": "badminton-tournament-app",
   "version": "1.0.0",
   "main": "expo-router/entry",
+  "packageManager": "yarn@1.22.22",
   "scripts": {
     "start": "expo start",
     "ios": "expo start --ios",
@@ -20,7 +21,7 @@
     "react-native-safe-area-context": "4.10.1",
     "react-native-screens": "3.31.1",
     "react-native-url-polyfill": "^2.0.0",
-    "@supabase/supabase-js": "^2.45.0",
+    "@supabase/supabase-js": "2.58.0",
     "@react-native-async-storage/async-storage": "1.23.1",
     "@tanstack/react-query": "^5.51.0"
   },
