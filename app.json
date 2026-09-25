@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Badminton Tournament",
+    "slug": "badminton-tournament",
+    "scheme": "badminton-tournament",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "backgroundColor": "#123a5e"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.yourorg.badmintontournament"
+    },
+    "android": {
+      "package": "com.yourorg.badmintontournament"
+    },
+    "plugins": ["expo-router"],
+    "extra": {
+      "eas": {
+        "projectId": "REPLACE_AFTER_RUNNING_eas_init"
+      }
+    }
+  }
+}
